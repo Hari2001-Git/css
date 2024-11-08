@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Café</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body Styling */
+        body {
+            font-family: Arial, sans-serif;
+            color: #eee;
+            background-color: #1a1a1a;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #222;
+            color: #00ff7f;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Main Styling */
+        main {
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        /* Sections */
+        section {
+            margin-bottom: 40px;
+        }
+
+        /* Games Section */
+        .game-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #555;
+        }
+
+        /* Gallery Section */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        /* Membership Section */
+        .membership {
+            background-color: #333;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .membership h3 {
+            color: #00ff7f;
+            margin-bottom: 10px;
+        }
+
+        .membership p {
+            margin-bottom: 5px;
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color: #222;
+            color: #00ff7f;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Gaming Café</h1>
+        <p>Your ultimate destination for gaming and fun!</p>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Games Section -->
+        <section id="games">
+            <h2>Games We Offer</h2>
+            <div class="game-item">
+                <span>Fortnite</span>
+                <span>Battle Royale</span>
+            </div>
+            <div class="game-item">
+                <span>Call of Duty: Warzone</span>
+                <span>FPS</span>
+            </div>
+            <div class="game-item">
+                <span>Minecraft</span>
+                <span>Sandbox</span>
+            </div>
+            <div class="game-item">
+                <span>League of Legends</span>
+                <span>MOBA</span>
+            </div>
+            <!-- Add more games as needed -->
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery">
+                <img src="gaming-setup1.jpg" alt="Gaming Setup 1">
+                <img src="gaming-setup2.jpg" alt="Gaming Setup 2">
+                <img src="gaming-setup3.jpg" alt="Gaming Setup 3">
+                <!-- Add more images as needed -->
+            </div>
+        </section>
+
+        <!-- Membership Section -->
+        <section id="membership">
+            <h2>Membership Options</h2>
+            <div class="membership">
+                <h3>Basic Membership</h3>
+                <p>Access to all standard games</p>
+                <p>Price: $15/month</p>
+            </div>
+            <div class="membership">
+                <h3>Premium Membership</h3>
+                <p>Access to all games and VIP lounge</p>
+                <p>Price: $25/month</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Address: 456 Gamer's Street, GameCity, Country</p>
+            <p>Phone: (987) 654-3210</p>
+            <p>Email: info@gamingcafe.com</p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Gaming Café. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
